@@ -3,6 +3,7 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 import SearchBar from './components/SearchBar';
 import RepoList from './components/RepoList';
+import './App.css'
 
 const App = () => (
   <Provider store={store}>
